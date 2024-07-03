@@ -1,0 +1,5 @@
+Vegetáriánus;890;920
+Magyaros;950;1040
+Vesuvio;990;1090
+Négy sajtos;1090;1120
+Torino;980;1090

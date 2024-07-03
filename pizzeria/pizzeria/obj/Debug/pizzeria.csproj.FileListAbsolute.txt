@@ -1,0 +1,10 @@
+Z:\12_Kozgaz\DIAKOK\Falka Marietta\pizzeria\pizzeria\bin\Debug\pizzeria.exe.config
+Z:\12_Kozgaz\DIAKOK\Falka Marietta\pizzeria\pizzeria\bin\Debug\pizzeria.exe
+Z:\12_Kozgaz\DIAKOK\Falka Marietta\pizzeria\pizzeria\bin\Debug\pizzeria.pdb
+Z:\12_Kozgaz\DIAKOK\Falka Marietta\pizzeria\pizzeria\obj\Debug\pizzeria.csproj.AssemblyReference.cache
+Z:\12_Kozgaz\DIAKOK\Falka Marietta\pizzeria\pizzeria\obj\Debug\pizzeria.PizzaForm.resources
+Z:\12_Kozgaz\DIAKOK\Falka Marietta\pizzeria\pizzeria\obj\Debug\pizzeria.Properties.Resources.resources
+Z:\12_Kozgaz\DIAKOK\Falka Marietta\pizzeria\pizzeria\obj\Debug\pizzeria.csproj.GenerateResource.cache
+Z:\12_Kozgaz\DIAKOK\Falka Marietta\pizzeria\pizzeria\obj\Debug\pizzeria.csproj.CoreCompileInputs.cache
+Z:\12_Kozgaz\DIAKOK\Falka Marietta\pizzeria\pizzeria\obj\Debug\pizzeria.exe
+Z:\12_Kozgaz\DIAKOK\Falka Marietta\pizzeria\pizzeria\obj\Debug\pizzeria.pdb
