@@ -169,8 +169,8 @@ namespace pizzeria
                 radioButton.Size = new Size(meretAr, meretY);
                 radioButton.TextAlign = ContentAlignment.MiddleRight;
                 radioButton.Text = pizzak[i].ArNagy.ToString();
-                radioButton.Location = new Point(meretAr + koz, 0);
-                rdBtnKicsiArak.Add(radioButton);
+                radioButton.Location = new Point(meretFt + koz, 0);
+                rdBtnNagyArak.Add(radioButton);
 
                 panel.Controls.Add(radioButton);
 
@@ -179,7 +179,7 @@ namespace pizzeria
                 label.TextAlign = ContentAlignment.MiddleLeft;
                 label.Text = " Ft";
                 label.Location = new Point(meretAr + koz, 0);
-                label.Size = new Size(meretFt, meretY);
+                label.Size = new Size(meretAr, meretY);
                 panel.Controls.Add(label);
 
                 //textBox darabszám
@@ -193,7 +193,7 @@ namespace pizzeria
                 label = new Label();
                 label.TextAlign = ContentAlignment.MiddleLeft;
                 label.Text = "darab";
-                label.Location = new Point(meretAr + koz, 0);
+                label.Location = new Point(meretDb + koz, 0);
                 label.Size = new Size(meretDb, meretY);
                 panel.Controls.Add(label);
             }
@@ -247,7 +247,23 @@ namespace pizzeria
 
         private void btnTorol_Click(object sender, EventArgs e)
         {
+            foreach (Control item in this.Controls)
+            {
+                //Töröljük a checkbox-ok kijelölését
+                if (item is CheckBox) (item as CheckBox).Checked = false;
 
+                //Törüljük a textBox-ok kijelölését
+                if (item is TextBox) ((TextBox)item).Clear();
+
+                //a rádiógombok nem közvetlenül a form-on vannak
+                if (item.HasChildren)
+                {
+                    foreach (Control gyerek in item.Controls)
+                    {
+                        if (gyerek is RadioButton) (gyerek as RadioButton).Checked = false;
+                    }
+                }
+            }
         }
 
         private void btnBezar_Click(object sender, EventArgs e)
