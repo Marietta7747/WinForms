@@ -1,0 +1,10 @@
+C:\Users\user\Downloads\diakkezelo\diakkezelo\bin\Debug\diakkezelo.exe.config
+C:\Users\user\Downloads\diakkezelo\diakkezelo\bin\Debug\diakkezelo.exe
+C:\Users\user\Downloads\diakkezelo\diakkezelo\bin\Debug\diakkezelo.pdb
+C:\Users\user\Downloads\diakkezelo\diakkezelo\obj\Debug\diakkezelo.csproj.AssemblyReference.cache
+C:\Users\user\Downloads\diakkezelo\diakkezelo\obj\Debug\diakkezelo.Form1.resources
+C:\Users\user\Downloads\diakkezelo\diakkezelo\obj\Debug\diakkezelo.Properties.Resources.resources
+C:\Users\user\Downloads\diakkezelo\diakkezelo\obj\Debug\diakkezelo.csproj.GenerateResource.cache
+C:\Users\user\Downloads\diakkezelo\diakkezelo\obj\Debug\diakkezelo.csproj.CoreCompileInputs.cache
+C:\Users\user\Downloads\diakkezelo\diakkezelo\obj\Debug\diakkezelo.exe
+C:\Users\user\Downloads\diakkezelo\diakkezelo\obj\Debug\diakkezelo.pdb
