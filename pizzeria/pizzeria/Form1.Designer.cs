@@ -63,7 +63,7 @@
             // 
             // btnSzamol
             // 
-            this.btnSzamol.Location = new System.Drawing.Point(59, 342);
+            this.btnSzamol.Location = new System.Drawing.Point(127, 342);
             this.btnSzamol.Name = "btnSzamol";
             this.btnSzamol.Size = new System.Drawing.Size(75, 23);
             this.btnSzamol.TabIndex = 3;
@@ -73,7 +73,7 @@
             // 
             // btnTorol
             // 
-            this.btnTorol.Location = new System.Drawing.Point(59, 397);
+            this.btnTorol.Location = new System.Drawing.Point(127, 397);
             this.btnTorol.Name = "btnTorol";
             this.btnTorol.Size = new System.Drawing.Size(75, 23);
             this.btnTorol.TabIndex = 4;
@@ -83,7 +83,7 @@
             // 
             // btnBezar
             // 
-            this.btnBezar.Location = new System.Drawing.Point(661, 397);
+            this.btnBezar.Location = new System.Drawing.Point(588, 399);
             this.btnBezar.Name = "btnBezar";
             this.btnBezar.Size = new System.Drawing.Size(75, 23);
             this.btnBezar.TabIndex = 5;
@@ -97,7 +97,7 @@
             this.label2.BackColor = System.Drawing.Color.PeachPuff;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label2.ForeColor = System.Drawing.Color.DarkRed;
-            this.label2.Location = new System.Drawing.Point(160, 345);
+            this.label2.Location = new System.Drawing.Point(231, 345);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(94, 20);
             this.label2.TabIndex = 6;
@@ -106,7 +106,7 @@
             // txtFizetendo
             // 
             this.txtFizetendo.Enabled = false;
-            this.txtFizetendo.Location = new System.Drawing.Point(260, 344);
+            this.txtFizetendo.Location = new System.Drawing.Point(331, 345);
             this.txtFizetendo.Name = "txtFizetendo";
             this.txtFizetendo.Size = new System.Drawing.Size(100, 20);
             this.txtFizetendo.TabIndex = 7;
@@ -119,9 +119,9 @@
             // 
             this.pnlKozponti.AutoScroll = true;
             this.pnlKozponti.BackColor = System.Drawing.Color.AntiqueWhite;
-            this.pnlKozponti.Location = new System.Drawing.Point(59, 72);
+            this.pnlKozponti.Location = new System.Drawing.Point(127, 72);
             this.pnlKozponti.Name = "pnlKozponti";
-            this.pnlKozponti.Size = new System.Drawing.Size(677, 242);
+            this.pnlKozponti.Size = new System.Drawing.Size(536, 242);
             this.pnlKozponti.TabIndex = 8;
             // 
             // PizzaForm

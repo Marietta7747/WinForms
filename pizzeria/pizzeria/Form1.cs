@@ -149,7 +149,7 @@ namespace pizzeria
                 radioButton.Size = new Size(meretAr, meretY);
                 radioButton.TextAlign = ContentAlignment.MiddleRight;
                 radioButton.Text = pizzak[i].ArKicsi.ToString();
-                radioButton.Location = new Point(0,0);
+                radioButton.Location = new Point(0, 0);
                 rdBtnKicsiArak.Add(radioButton);
 
                 //a rádiógombot rárakjuk az őket tartalmazó panelre
@@ -169,33 +169,41 @@ namespace pizzeria
                 radioButton.Size = new Size(meretAr, meretY);
                 radioButton.TextAlign = ContentAlignment.MiddleRight;
                 radioButton.Text = pizzak[i].ArNagy.ToString();
-                radioButton.Location = new Point(meretFt + koz, 0);
+                radioButton.Location = new Point(2 * koz + meretFt + meretFt / 2 + meretAr + koz, 0);
                 rdBtnNagyArak.Add(radioButton);
-
                 panel.Controls.Add(radioButton);
+
 
                 //Fix Ft felairat
                 label = new Label();
-                label.TextAlign = ContentAlignment.MiddleLeft;
+                label.TextAlign = ContentAlignment.MiddleRight;
                 label.Text = " Ft";
-                label.Location = new Point(meretAr + koz, 0);
+                label.Location = new Point(bal + meretAr + meretFt + meretFt / 2 + 3 * koz, 0);
                 label.Size = new Size(meretAr, meretY);
                 panel.Controls.Add(label);
+                panel.Controls.Add(label);
 
+
+                
                 //textBox darabszám
                 textBox = new TextBox();
-                textBox.Location = new Point(meretFt + koz, 0);
+                textBox.Location = new Point(8 * meretAr + 6 * koz, fent);
                 textBox.Size = new Size(meretDb, meretY);
+                textBox.TabIndex = 2;
                 panel.Controls.Add(textBox);
+                pnlKozponti.Controls.Add(textBox);
 
 
                 //Fix darab felirat
                 label = new Label();
                 label.TextAlign = ContentAlignment.MiddleLeft;
                 label.Text = "darab";
-                label.Location = new Point(meretDb + koz, 0);
+                label.Location = new Point(9 * meretDb + 10 * koz, fent);
                 label.Size = new Size(meretDb, meretY);
                 panel.Controls.Add(label);
+                pnlKozponti.Controls.Add(label);
+                
+            
             }
 
         }
