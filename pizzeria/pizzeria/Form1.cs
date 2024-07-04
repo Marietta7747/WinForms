@@ -86,6 +86,7 @@ namespace pizzeria
 
                     //Leszedjük a háttérképet
                     this.BackgroundImage = null;
+                    this.BackColor = Color.Bisque;
                 }
                 catch (Exception ex)
                 {
@@ -169,7 +170,7 @@ namespace pizzeria
                 radioButton.Size = new Size(meretAr, meretY);
                 radioButton.TextAlign = ContentAlignment.MiddleRight;
                 radioButton.Text = pizzak[i].ArNagy.ToString();
-                radioButton.Location = new Point(2 * koz + meretFt + meretFt / 2 + meretAr + koz, 0);
+                radioButton.Location = new Point(meretAr + koz + meretFt + koz + meretFt / 2, 0);
                 rdBtnNagyArak.Add(radioButton);
                 panel.Controls.Add(radioButton);
 
@@ -178,19 +179,19 @@ namespace pizzeria
                 label = new Label();
                 label.TextAlign = ContentAlignment.MiddleRight;
                 label.Text = " Ft";
-                label.Location = new Point(bal + meretAr + meretFt + meretFt / 2 + 3 * koz, 0);
+                label.Location = new Point(meretAr + koz + meretFt + koz + meretFt, 0);
                 label.Size = new Size(meretAr, meretY);
                 panel.Controls.Add(label);
-                panel.Controls.Add(label);
 
 
-                
+              
                 //textBox darabszám
                 textBox = new TextBox();
-                textBox.Location = new Point(8 * meretAr + 6 * koz, fent);
+                textBox.Location = new Point(panelX + meretAr + koz + meretFt + koz + meretAr + koz + meretFt + koz, fent);
                 textBox.Size = new Size(meretDb, meretY);
-                textBox.TabIndex = 2;
+                textBox.Text = "";
                 panel.Controls.Add(textBox);
+
                 pnlKozponti.Controls.Add(textBox);
 
 
@@ -198,12 +199,10 @@ namespace pizzeria
                 label = new Label();
                 label.TextAlign = ContentAlignment.MiddleLeft;
                 label.Text = "darab";
-                label.Location = new Point(9 * meretDb + 10 * koz, fent);
+                label.Location = new Point(panelX + meretAr + koz + meretFt + koz + meretAr + koz + meretFt + koz + meretDb + meretDb / 2, fent);
                 label.Size = new Size(meretDb, meretY);
                 panel.Controls.Add(label);
                 pnlKozponti.Controls.Add(label);
-                
-            
             }
 
         }

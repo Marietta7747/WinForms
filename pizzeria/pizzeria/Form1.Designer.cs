@@ -41,7 +41,7 @@
             // 
             // btnAdatBe
             // 
-            this.btnAdatBe.Location = new System.Drawing.Point(323, 397);
+            this.btnAdatBe.Location = new System.Drawing.Point(215, 409);
             this.btnAdatBe.Name = "btnAdatBe";
             this.btnAdatBe.Size = new System.Drawing.Size(140, 25);
             this.btnAdatBe.TabIndex = 0;
@@ -51,19 +51,19 @@
             // 
             // label1
             // 
-            this.label1.BackColor = System.Drawing.Color.PeachPuff;
+            this.label1.BackColor = System.Drawing.Color.Bisque;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label1.ForeColor = System.Drawing.Color.DarkRed;
             this.label1.Location = new System.Drawing.Point(-1, 19);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(803, 26);
+            this.label1.Size = new System.Drawing.Size(585, 26);
             this.label1.TabIndex = 1;
             this.label1.Text = "MENÜVÁLASZTÉK";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // btnSzamol
             // 
-            this.btnSzamol.Location = new System.Drawing.Point(127, 342);
+            this.btnSzamol.Location = new System.Drawing.Point(29, 355);
             this.btnSzamol.Name = "btnSzamol";
             this.btnSzamol.Size = new System.Drawing.Size(75, 23);
             this.btnSzamol.TabIndex = 3;
@@ -73,7 +73,7 @@
             // 
             // btnTorol
             // 
-            this.btnTorol.Location = new System.Drawing.Point(127, 397);
+            this.btnTorol.Location = new System.Drawing.Point(29, 410);
             this.btnTorol.Name = "btnTorol";
             this.btnTorol.Size = new System.Drawing.Size(75, 23);
             this.btnTorol.TabIndex = 4;
@@ -83,7 +83,7 @@
             // 
             // btnBezar
             // 
-            this.btnBezar.Location = new System.Drawing.Point(588, 399);
+            this.btnBezar.Location = new System.Drawing.Point(474, 411);
             this.btnBezar.Name = "btnBezar";
             this.btnBezar.Size = new System.Drawing.Size(75, 23);
             this.btnBezar.TabIndex = 5;
@@ -94,10 +94,10 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.PeachPuff;
+            this.label2.BackColor = System.Drawing.Color.Bisque;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label2.ForeColor = System.Drawing.Color.DarkRed;
-            this.label2.Location = new System.Drawing.Point(231, 345);
+            this.label2.Location = new System.Drawing.Point(133, 358);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(94, 20);
             this.label2.TabIndex = 6;
@@ -106,7 +106,7 @@
             // txtFizetendo
             // 
             this.txtFizetendo.Enabled = false;
-            this.txtFizetendo.Location = new System.Drawing.Point(331, 345);
+            this.txtFizetendo.Location = new System.Drawing.Point(233, 360);
             this.txtFizetendo.Name = "txtFizetendo";
             this.txtFizetendo.Size = new System.Drawing.Size(100, 20);
             this.txtFizetendo.TabIndex = 7;
@@ -119,9 +119,9 @@
             // 
             this.pnlKozponti.AutoScroll = true;
             this.pnlKozponti.BackColor = System.Drawing.Color.AntiqueWhite;
-            this.pnlKozponti.Location = new System.Drawing.Point(127, 72);
+            this.pnlKozponti.Location = new System.Drawing.Point(29, 70);
             this.pnlKozponti.Name = "pnlKozponti";
-            this.pnlKozponti.Size = new System.Drawing.Size(536, 242);
+            this.pnlKozponti.Size = new System.Drawing.Size(520, 250);
             this.pnlKozponti.TabIndex = 8;
             // 
             // PizzaForm
@@ -130,7 +130,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::pizzeria.Properties.Resources.pizza_1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(584, 461);
             this.Controls.Add(this.pnlKozponti);
             this.Controls.Add(this.txtFizetendo);
             this.Controls.Add(this.label2);

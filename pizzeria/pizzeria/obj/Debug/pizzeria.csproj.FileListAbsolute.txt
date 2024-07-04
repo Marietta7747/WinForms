@@ -18,3 +18,13 @@ C:\Users\user\Downloads\pizzeria\pizzeria\obj\Debug\pizzeria.csproj.GenerateReso
 C:\Users\user\Downloads\pizzeria\pizzeria\obj\Debug\pizzeria.csproj.CoreCompileInputs.cache
 C:\Users\user\Downloads\pizzeria\pizzeria\obj\Debug\pizzeria.exe
 C:\Users\user\Downloads\pizzeria\pizzeria\obj\Debug\pizzeria.pdb
+C:\Users\marie\Downloads\WinForms-main\WinForms-main\pizzeria\pizzeria\bin\Debug\pizzeria.exe.config
+C:\Users\marie\Downloads\WinForms-main\WinForms-main\pizzeria\pizzeria\bin\Debug\pizzeria.exe
+C:\Users\marie\Downloads\WinForms-main\WinForms-main\pizzeria\pizzeria\bin\Debug\pizzeria.pdb
+C:\Users\marie\Downloads\WinForms-main\WinForms-main\pizzeria\pizzeria\obj\Debug\pizzeria.csproj.AssemblyReference.cache
+C:\Users\marie\Downloads\WinForms-main\WinForms-main\pizzeria\pizzeria\obj\Debug\pizzeria.PizzaForm.resources
+C:\Users\marie\Downloads\WinForms-main\WinForms-main\pizzeria\pizzeria\obj\Debug\pizzeria.Properties.Resources.resources
+C:\Users\marie\Downloads\WinForms-main\WinForms-main\pizzeria\pizzeria\obj\Debug\pizzeria.csproj.GenerateResource.cache
+C:\Users\marie\Downloads\WinForms-main\WinForms-main\pizzeria\pizzeria\obj\Debug\pizzeria.csproj.CoreCompileInputs.cache
+C:\Users\marie\Downloads\WinForms-main\WinForms-main\pizzeria\pizzeria\obj\Debug\pizzeria.exe
+C:\Users\marie\Downloads\WinForms-main\WinForms-main\pizzeria\pizzeria\obj\Debug\pizzeria.pdb
