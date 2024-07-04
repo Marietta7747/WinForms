@@ -1,0 +1,10 @@
+C:\Users\marie\Downloads\WinForms-main\WinForms-main\pizzeriaElokeszitoFeladat\pizzeriaElokeszitoFeladat\bin\Debug\pizzeriaElokeszitoFeladat.exe.config
+C:\Users\marie\Downloads\WinForms-main\WinForms-main\pizzeriaElokeszitoFeladat\pizzeriaElokeszitoFeladat\bin\Debug\pizzeriaElokeszitoFeladat.exe
+C:\Users\marie\Downloads\WinForms-main\WinForms-main\pizzeriaElokeszitoFeladat\pizzeriaElokeszitoFeladat\bin\Debug\pizzeriaElokeszitoFeladat.pdb
+C:\Users\marie\Downloads\WinForms-main\WinForms-main\pizzeriaElokeszitoFeladat\pizzeriaElokeszitoFeladat\obj\Debug\pizzeriaElokeszitoFeladat.csproj.AssemblyReference.cache
+C:\Users\marie\Downloads\WinForms-main\WinForms-main\pizzeriaElokeszitoFeladat\pizzeriaElokeszitoFeladat\obj\Debug\pizzeriaElokeszitoFeladat.Form1.resources
+C:\Users\marie\Downloads\WinForms-main\WinForms-main\pizzeriaElokeszitoFeladat\pizzeriaElokeszitoFeladat\obj\Debug\pizzeriaElokeszitoFeladat.Properties.Resources.resources
+C:\Users\marie\Downloads\WinForms-main\WinForms-main\pizzeriaElokeszitoFeladat\pizzeriaElokeszitoFeladat\obj\Debug\pizzeriaElokeszitoFeladat.csproj.GenerateResource.cache
+C:\Users\marie\Downloads\WinForms-main\WinForms-main\pizzeriaElokeszitoFeladat\pizzeriaElokeszitoFeladat\obj\Debug\pizzeriaElokeszitoFeladat.csproj.CoreCompileInputs.cache
+C:\Users\marie\Downloads\WinForms-main\WinForms-main\pizzeriaElokeszitoFeladat\pizzeriaElokeszitoFeladat\obj\Debug\pizzeriaElokeszitoFeladat.exe
+C:\Users\marie\Downloads\WinForms-main\WinForms-main\pizzeriaElokeszitoFeladat\pizzeriaElokeszitoFeladat\obj\Debug\pizzeriaElokeszitoFeladat.pdb

@@ -31,11 +31,11 @@
             this.lblKicsi = new System.Windows.Forms.Label();
             this.lblNagy = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.rdBtn1Kicsi = new System.Windows.Forms.RadioButton();
-            this.rdBtn1Nagy = new System.Windows.Forms.RadioButton();
-            this.rdBtn2Kicsi = new System.Windows.Forms.RadioButton();
             this.rdBtn2Nagy = new System.Windows.Forms.RadioButton();
+            this.rdBtn2Kicsi = new System.Windows.Forms.RadioButton();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.rdBtn1Nagy = new System.Windows.Forms.RadioButton();
+            this.rdBtn1Kicsi = new System.Windows.Forms.RadioButton();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.checkBox2 = new System.Windows.Forms.CheckBox();
@@ -79,36 +79,16 @@
             this.panel1.Size = new System.Drawing.Size(457, 54);
             this.panel1.TabIndex = 2;
             // 
-            // groupBox1
+            // rdBtn2Nagy
             // 
-            this.groupBox1.Controls.Add(this.rdBtn1Nagy);
-            this.groupBox1.Controls.Add(this.rdBtn1Kicsi);
-            this.groupBox1.Location = new System.Drawing.Point(134, 85);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(457, 58);
-            this.groupBox1.TabIndex = 3;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Válasszon:";
-            // 
-            // rdBtn1Kicsi
-            // 
-            this.rdBtn1Kicsi.AutoSize = true;
-            this.rdBtn1Kicsi.Location = new System.Drawing.Point(7, 20);
-            this.rdBtn1Kicsi.Name = "rdBtn1Kicsi";
-            this.rdBtn1Kicsi.Size = new System.Drawing.Size(14, 13);
-            this.rdBtn1Kicsi.TabIndex = 0;
-            this.rdBtn1Kicsi.TabStop = true;
-            this.rdBtn1Kicsi.UseVisualStyleBackColor = true;
-            // 
-            // rdBtn1Nagy
-            // 
-            this.rdBtn1Nagy.AutoSize = true;
-            this.rdBtn1Nagy.Location = new System.Drawing.Point(236, 20);
-            this.rdBtn1Nagy.Name = "rdBtn1Nagy";
-            this.rdBtn1Nagy.Size = new System.Drawing.Size(14, 13);
-            this.rdBtn1Nagy.TabIndex = 1;
-            this.rdBtn1Nagy.TabStop = true;
-            this.rdBtn1Nagy.UseVisualStyleBackColor = true;
+            this.rdBtn2Nagy.AutoSize = true;
+            this.rdBtn2Nagy.Location = new System.Drawing.Point(236, 22);
+            this.rdBtn2Nagy.Name = "rdBtn2Nagy";
+            this.rdBtn2Nagy.Size = new System.Drawing.Size(85, 17);
+            this.rdBtn2Nagy.TabIndex = 1;
+            this.rdBtn2Nagy.TabStop = true;
+            this.rdBtn2Nagy.Text = "radioButton4";
+            this.rdBtn2Nagy.UseVisualStyleBackColor = true;
             // 
             // rdBtn2Kicsi
             // 
@@ -121,16 +101,36 @@
             this.rdBtn2Kicsi.Text = "radioButton3";
             this.rdBtn2Kicsi.UseVisualStyleBackColor = true;
             // 
-            // rdBtn2Nagy
+            // groupBox1
             // 
-            this.rdBtn2Nagy.AutoSize = true;
-            this.rdBtn2Nagy.Location = new System.Drawing.Point(236, 22);
-            this.rdBtn2Nagy.Name = "rdBtn2Nagy";
-            this.rdBtn2Nagy.Size = new System.Drawing.Size(85, 17);
-            this.rdBtn2Nagy.TabIndex = 1;
-            this.rdBtn2Nagy.TabStop = true;
-            this.rdBtn2Nagy.Text = "radioButton4";
-            this.rdBtn2Nagy.UseVisualStyleBackColor = true;
+            this.groupBox1.Controls.Add(this.rdBtn1Nagy);
+            this.groupBox1.Controls.Add(this.rdBtn1Kicsi);
+            this.groupBox1.Location = new System.Drawing.Point(134, 85);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(457, 58);
+            this.groupBox1.TabIndex = 3;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Válasszon:";
+            // 
+            // rdBtn1Nagy
+            // 
+            this.rdBtn1Nagy.AutoSize = true;
+            this.rdBtn1Nagy.Location = new System.Drawing.Point(236, 20);
+            this.rdBtn1Nagy.Name = "rdBtn1Nagy";
+            this.rdBtn1Nagy.Size = new System.Drawing.Size(14, 13);
+            this.rdBtn1Nagy.TabIndex = 1;
+            this.rdBtn1Nagy.TabStop = true;
+            this.rdBtn1Nagy.UseVisualStyleBackColor = true;
+            // 
+            // rdBtn1Kicsi
+            // 
+            this.rdBtn1Kicsi.AutoSize = true;
+            this.rdBtn1Kicsi.Location = new System.Drawing.Point(7, 20);
+            this.rdBtn1Kicsi.Name = "rdBtn1Kicsi";
+            this.rdBtn1Kicsi.Size = new System.Drawing.Size(14, 13);
+            this.rdBtn1Kicsi.TabIndex = 0;
+            this.rdBtn1Kicsi.TabStop = true;
+            this.rdBtn1Kicsi.UseVisualStyleBackColor = true;
             // 
             // openFileDialog1
             // 
@@ -268,6 +268,7 @@
             this.Controls.Add(this.lblKicsi);
             this.Name = "Form1";
             this.Text = "Pizzéria próba";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.groupBox1.ResumeLayout(false);
