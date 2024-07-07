@@ -1,0 +1,7 @@
+Kupica kisüsti barackpálinka;250
+Kupica vegyes pálinka;180
+Korsó sör;150
+Pohár sör;120
+Pohár fröccs;100
+Kávé;120
+Ásványvíz;80

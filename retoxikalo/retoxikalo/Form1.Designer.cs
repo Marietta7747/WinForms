@@ -82,18 +82,21 @@
             this.SaveMenuItem.Name = "SaveMenuItem";
             this.SaveMenuItem.Size = new System.Drawing.Size(182, 22);
             this.SaveMenuItem.Text = "Mentés          Ctrl+S";
+            this.SaveMenuItem.Click += new System.EventHandler(this.SaveMenuItem_Click);
             // 
             // ExitMenuItem
             // 
             this.ExitMenuItem.Name = "ExitMenuItem";
             this.ExitMenuItem.Size = new System.Drawing.Size(182, 22);
             this.ExitMenuItem.Text = "Kilépés           Alt+F4";
+            this.ExitMenuItem.Click += new System.EventHandler(this.ExitMenuItem_Click);
             // 
             // ItallapMenuItem
             // 
             this.ItallapMenuItem.Name = "ItallapMenuItem";
             this.ItallapMenuItem.Size = new System.Drawing.Size(51, 20);
             this.ItallapMenuItem.Text = "Itallap";
+            this.ItallapMenuItem.Click += new System.EventHandler(this.ItallapMenuItem_Click);
             // 
             // GaleriaMenuItem
             // 
@@ -106,12 +109,14 @@
             this.SugoMenuItem.Name = "SugoMenuItem";
             this.SugoMenuItem.Size = new System.Drawing.Size(46, 20);
             this.SugoMenuItem.Text = "Súgó";
+            this.SugoMenuItem.Click += new System.EventHandler(this.SugoMenuItem_Click);
             // 
             // NevjegyMenuItem
             // 
             this.NevjegyMenuItem.Name = "NevjegyMenuItem";
             this.NevjegyMenuItem.Size = new System.Drawing.Size(62, 20);
             this.NevjegyMenuItem.Text = "Névjegy";
+            this.NevjegyMenuItem.Click += new System.EventHandler(this.NevjegyMenuItem_Click);
             // 
             // Form1
             // 

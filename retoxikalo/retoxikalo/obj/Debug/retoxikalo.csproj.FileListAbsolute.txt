@@ -11,3 +11,4 @@ C:\Users\marie\source\repos\retoxikalo\retoxikalo\obj\Debug\retoxikalo.csproj.Ge
 C:\Users\marie\source\repos\retoxikalo\retoxikalo\obj\Debug\retoxikalo.csproj.CoreCompileInputs.cache
 C:\Users\marie\source\repos\retoxikalo\retoxikalo\obj\Debug\retoxikalo.exe
 C:\Users\marie\source\repos\retoxikalo\retoxikalo\obj\Debug\retoxikalo.pdb
+C:\Users\marie\source\repos\retoxikalo\retoxikalo\obj\Debug\retoxikalo.SugoForm.resources

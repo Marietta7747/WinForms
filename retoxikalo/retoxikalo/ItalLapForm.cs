@@ -24,6 +24,7 @@ namespace retoxikalo
         private int bal = 10, fent = 10, chkXMeret = 250, chkYTav = 40,
             txtXMeret = 30, txtYmeret = 17, xKoz = 5;
 
+       
         private int maxAdag = 999;
 
         internal void ArlapotIr(List<Ital> italok)
@@ -70,5 +71,57 @@ namespace retoxikalo
                 txtBoxok.Add(txtBox);
             }
         }
+
+        private void btnRendel_Click(object sender, EventArgs e)
+        {
+            bool valasztott = false, vanHibasAdag = false;
+            int mennyiseg = 0;
+
+            for (int i = 0; i < chkBoxok.Count; i++)
+            {
+                if (chkBoxok[i].Checked)
+                {
+                    valasztott = true;
+                    try
+                    {
+                        mennyiseg = int.Parse(txtBoxok[i].Text);
+                        if (mennyiseg <= 0 || mennyiseg > maxAdag) throw new Exception();
+                            italok[i].Rendel(mennyiseg);
+                            txtBoxok[i].BackColor = Color.White;
+                            chkBoxok[i].Checked = false;
+                            txtBoxok[i].Clear();
+                    }
+                    catch (Exception)
+                    {
+                        txtBoxok[i].BackColor = Color.Salmon;
+                        vanHibasAdag = true;
+                    }
+                }
+            }
+            if (!valasztott)
+            {
+                MessageBox.Show("Semmit sem választott!", "figyelmeztetés");
+            }
+            else if (vanHibasAdag)
+            {
+                MessageBox.Show("A pirossal jelzett adagok hibásak","figyelmeztetés");
+            }
+        }
+
+        private void fizetMenuItem_Click_1(object sender, EventArgs e)
+        {
+            foreach (Ital item in italok)
+            {
+                item.Fizet();
+            }
+        }
+
+        private void szamlatKerMenuItem_Click_1(object sender, EventArgs e)
+        {
+            SzamlaForm szamlaForm = new SzamlaForm();
+            szamlaForm.Kitolt(italok);
+            szamlaForm.ShowDialog();
+        }
+
     }
 }

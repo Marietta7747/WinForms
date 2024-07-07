@@ -43,6 +43,7 @@
             this.btnJobb.Size = new System.Drawing.Size(73, 40);
             this.btnJobb.TabIndex = 2;
             this.btnJobb.UseVisualStyleBackColor = true;
+            this.btnJobb.Click += new System.EventHandler(this.btnJobb_Click);
             // 
             // btnBal
             // 
@@ -53,9 +54,11 @@
             this.btnBal.Size = new System.Drawing.Size(73, 40);
             this.btnBal.TabIndex = 1;
             this.btnBal.UseVisualStyleBackColor = true;
+            this.btnBal.Click += new System.EventHandler(this.btnBal_Click);
             // 
             // pictureBox1
             // 
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox1.Location = new System.Drawing.Point(108, 62);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(946, 497);

@@ -32,9 +32,12 @@
             this.label1 = new System.Windows.Forms.Label();
             this.pnlValasztek = new System.Windows.Forms.Panel();
             this.btnRendel = new System.Windows.Forms.Button();
+            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.szamlatKerMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.fizetMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
-            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.contextMenuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -64,15 +67,33 @@
             this.btnRendel.TabIndex = 2;
             this.btnRendel.Text = "Rendel";
             this.btnRendel.UseVisualStyleBackColor = true;
+            this.btnRendel.Click += new System.EventHandler(this.btnRendel_Click);
+            // 
+            // contextMenuStrip1
+            // 
+            this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.szamlatKerMenuItem,
+            this.fizetMenuItem});
+            this.contextMenuStrip1.Name = "contextMenuStrip1";
+            this.contextMenuStrip1.Size = new System.Drawing.Size(181, 70);
+            // 
+            // szamlatKerMenuItem
+            // 
+            this.szamlatKerMenuItem.Name = "szamlatKerMenuItem";
+            this.szamlatKerMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.szamlatKerMenuItem.Text = "Számlát kér";
+            this.szamlatKerMenuItem.Click += new System.EventHandler(this.szamlatKerMenuItem_Click_1);
+            // 
+            // fizetMenuItem
+            // 
+            this.fizetMenuItem.Name = "fizetMenuItem";
+            this.fizetMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.fizetMenuItem.Text = "Fizet";
+            this.fizetMenuItem.Click += new System.EventHandler(this.fizetMenuItem_Click_1);
             // 
             // openFileDialog1
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
-            // 
-            // contextMenuStrip1
-            // 
-            this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
             // 
             // ItalLapForm
             // 
@@ -85,6 +106,7 @@
             this.Controls.Add(this.label1);
             this.Name = "ItalLapForm";
             this.Text = "ItalLap";
+            this.contextMenuStrip1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -98,5 +120,7 @@
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
         private System.Windows.Forms.SaveFileDialog saveFileDialog1;
+        private System.Windows.Forms.ToolStripMenuItem szamlatKerMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem fizetMenuItem;
     }
 }

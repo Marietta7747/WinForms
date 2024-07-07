@@ -44,8 +44,8 @@ namespace retoxikalo
             Image kep;
             for (int i = 0; i <= kepekSzama; i++)
             {
-                //kep = Image.FromFile("kep" + i + ".jpg");
-                //kepek.Add(kep);
+                kep = Image.FromFile("kep" + i + ".jpg");
+                kepek.Add(kep);
             }
         }
 
@@ -89,6 +89,73 @@ namespace retoxikalo
 
                 italok.Add(new Ital(adatok[0], int.Parse(adatok[1])));
                 sor = sr.ReadLine();
+            }
+        }
+
+        private void ItallapMenuItem_Click(object sender, EventArgs e)
+        {
+            italForm.ArlapotIr(italok);
+            italForm.ShowDialog();
+        }
+
+        private void GaleriaMenuItem_Click(object sender, EventArgs e)
+        {
+            GaleriaForm galeriaForm = new GaleriaForm();
+            galeriaForm.Atad(kepek);
+            galeriaForm.Show();
+        }
+        
+        private void SugoMenuItem_Click(object sender, EventArgs e)
+        {
+            SugoForm sugoForm = new SugoForm();
+            sugoForm.Show();
+        }
+
+        
+
+        private void FajlbaIr(StreamWriter sw)
+        {
+            foreach(Ital item in italok)
+            {
+                sw.WriteLine(item.Konyvelesbe());
+            }
+        }
+
+        private void NevjegyMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Készült prog2 gyakorlaton.","információ");
+        }
+
+        private void ExitMenuItem_Click(object sender, EventArgs e)
+        {
+            DialogResult valasz = MessageBox.Show("Biztosan kilép?", "Megerősítés", 
+                MessageBoxButtons.YesNo);
+            if (valasz == DialogResult.Yes) this.Close();
+        }
+
+        private void SaveMenuItem_Click(object sender, EventArgs e)
+        {
+
+            if (saveFileDialog1.ShowDialog() == DialogResult.OK)
+            {
+                StreamWriter sw = null;
+                try
+                {
+                    string fajlNev = saveFileDialog1.FileName;
+                    sw = new StreamWriter(fajlNev);
+                    FajlbaIr(sw);
+                }
+                catch (Exception)
+                {
+                    MessageBox.Show("Hiba a fájl írásakor", "hiba");
+                }
+                finally
+                {
+                    if (sw != null)
+                    {
+                        sw.Close();
+                    }
+                }
             }
         }
 
@@ -142,8 +209,4 @@ namespace retoxikalo
         }
     }
 
-    class Image
-    {
-
-    }
 }
