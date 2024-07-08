@@ -1,0 +1,14 @@
+C:\Users\user\Downloads\MenuvezereltUszoverseny\MenuvezereltUszoverseny\bin\Debug\MenuvezereltUszoverseny.exe.config
+C:\Users\user\Downloads\MenuvezereltUszoverseny\MenuvezereltUszoverseny\bin\Debug\MenuvezereltUszoverseny.exe
+C:\Users\user\Downloads\MenuvezereltUszoverseny\MenuvezereltUszoverseny\bin\Debug\MenuvezereltUszoverseny.pdb
+C:\Users\user\Downloads\MenuvezereltUszoverseny\MenuvezereltUszoverseny\obj\Debug\MenuvezereltUszoverseny.csproj.AssemblyReference.cache
+C:\Users\user\Downloads\MenuvezereltUszoverseny\MenuvezereltUszoverseny\obj\Debug\MenuvezereltUszoverseny.EredmenyForm.resources
+C:\Users\user\Downloads\MenuvezereltUszoverseny\MenuvezereltUszoverseny\obj\Debug\MenuvezereltUszoverseny.InditoForm.resources
+C:\Users\user\Downloads\MenuvezereltUszoverseny\MenuvezereltUszoverseny\obj\Debug\MenuvezereltUszoverseny.NevjegyForm.resources
+C:\Users\user\Downloads\MenuvezereltUszoverseny\MenuvezereltUszoverseny\obj\Debug\MenuvezereltUszoverseny.Properties.Resources.resources
+C:\Users\user\Downloads\MenuvezereltUszoverseny\MenuvezereltUszoverseny\obj\Debug\MenuvezereltUszoverseny.VersenyForm.resources
+C:\Users\user\Downloads\MenuvezereltUszoverseny\MenuvezereltUszoverseny\obj\Debug\MenuvezereltUszoverseny.ZaszloForm.resources
+C:\Users\user\Downloads\MenuvezereltUszoverseny\MenuvezereltUszoverseny\obj\Debug\MenuvezereltUszoverseny.csproj.GenerateResource.cache
+C:\Users\user\Downloads\MenuvezereltUszoverseny\MenuvezereltUszoverseny\obj\Debug\MenuvezereltUszoverseny.csproj.CoreCompileInputs.cache
+C:\Users\user\Downloads\MenuvezereltUszoverseny\MenuvezereltUszoverseny\obj\Debug\MenuvezereltUszoverseny.exe
+C:\Users\user\Downloads\MenuvezereltUszoverseny\MenuvezereltUszoverseny\obj\Debug\MenuvezereltUszoverseny.pdb

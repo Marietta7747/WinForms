@@ -1,0 +1,6 @@
+Jakabos Zsuzsanna;Magyarország;magyarorszag
+Aljand Triin;Észtország;esztorszag
+Hosszú Katinka;Magyarország;magyarorszag
+Martina Granstrom;Svédország;svedorszag
+
+
