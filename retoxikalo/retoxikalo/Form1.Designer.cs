@@ -74,21 +74,24 @@
             // 
             this.OpenMenuItem.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.OpenMenuItem.Name = "OpenMenuItem";
-            this.OpenMenuItem.Size = new System.Drawing.Size(182, 22);
-            this.OpenMenuItem.Text = "Megnyitás     Ctrl+M";
+            this.OpenMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.M)));
+            this.OpenMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.OpenMenuItem.Text = "Megnyitás";
             // 
             // SaveMenuItem
             // 
             this.SaveMenuItem.Name = "SaveMenuItem";
-            this.SaveMenuItem.Size = new System.Drawing.Size(182, 22);
-            this.SaveMenuItem.Text = "Mentés          Ctrl+S";
+            this.SaveMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.S)));
+            this.SaveMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.SaveMenuItem.Text = "Mentés";
             this.SaveMenuItem.Click += new System.EventHandler(this.SaveMenuItem_Click);
             // 
             // ExitMenuItem
             // 
             this.ExitMenuItem.Name = "ExitMenuItem";
-            this.ExitMenuItem.Size = new System.Drawing.Size(182, 22);
-            this.ExitMenuItem.Text = "Kilépés           Alt+F4";
+            this.ExitMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.F4)));
+            this.ExitMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.ExitMenuItem.Text = "Kilépés";
             this.ExitMenuItem.Click += new System.EventHandler(this.ExitMenuItem_Click);
             // 
             // ItallapMenuItem
