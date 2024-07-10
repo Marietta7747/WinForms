@@ -1,6 +1,6 @@
-Jakabos Zsuzsanna;Magyarország;magyarorszag
-Aljand Triin;Észtország;esztorszag
-Hosszú Katinka;Magyarország;magyarorszag
-Martina Granstrom;Svédország;svedorszag
+Jakabos Zsuzsanna;Magyarország;magyarorszag;2:05.18
+Aljand Triin;Észtország;esztorszag;1:28.04
+Hosszú Katinka;Magyarország;magyarorszag;2:05.18
+Martina Granstrom;Svédország;svedorszag;2:08.43
 
 

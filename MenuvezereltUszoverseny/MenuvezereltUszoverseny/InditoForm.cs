@@ -138,6 +138,11 @@ namespace MenuvezereltUszoverseny
             NevjegyForm about = new NevjegyForm(keszito);
             about.ShowDialog();
         }
+
+        private void exitMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 
     public class Versenyzo

@@ -37,6 +37,7 @@ namespace MenuvezereltUszoverseny
             btnVerseny.Enabled = false;
             tavNmrcUpDown.Enabled = false;
             uszasNemCmbBox.Enabled = false;
+            idoEredmenyDateTimePicker.Enabled = false;
 
             VersenyzoBeallitas();
         }
