@@ -1,0 +1,9 @@
+C:\Users\user\Downloads\Contact\Contact\obj\Debug\Contact.csproj.AssemblyReference.cache
+C:\Users\user\Downloads\Contact\Contact\obj\Debug\Contact.Forms.BaseContact.resources
+C:\Users\user\Downloads\Contact\Contact\obj\Debug\Contact.Forms.ContactList.resources
+C:\Users\user\Downloads\Contact\Contact\obj\Debug\Contact.Forms.DeleteContact.resources
+C:\Users\user\Downloads\Contact\Contact\obj\Debug\Contact.Forms.EditContact.resources
+C:\Users\user\Downloads\Contact\Contact\obj\Debug\Contact.Forms.NewContact.resources
+C:\Users\user\Downloads\Contact\Contact\obj\Debug\Contact.Properties.Resources.resources
+C:\Users\user\Downloads\Contact\Contact\obj\Debug\Contact.csproj.GenerateResource.cache
+C:\Users\user\Downloads\Contact\Contact\obj\Debug\Contact.csproj.CoreCompileInputs.cache
