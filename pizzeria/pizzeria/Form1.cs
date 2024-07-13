@@ -189,9 +189,7 @@ namespace pizzeria
                 textBox = new TextBox();
                 textBox.Location = new Point(panelX + meretAr + koz + meretFt + koz + meretAr + koz + meretFt + koz, fent);
                 textBox.Size = new Size(meretDb, meretY);
-                textBox.Text = "";
-                panel.Controls.Add(textBox);
-
+                
                 pnlKozponti.Controls.Add(textBox);
 
 
