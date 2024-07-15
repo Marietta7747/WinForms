@@ -1,0 +1,5 @@
+C:\Users\user\Downloads\StoringImages\StoringImages\obj\Debug\StoringImages.csproj.AssemblyReference.cache
+C:\Users\user\Downloads\StoringImages\StoringImages\obj\Debug\StoringImages.DisplayImages.resources
+C:\Users\user\Downloads\StoringImages\StoringImages\obj\Debug\StoringImages.Properties.Resources.resources
+C:\Users\user\Downloads\StoringImages\StoringImages\obj\Debug\StoringImages.csproj.GenerateResource.cache
+C:\Users\user\Downloads\StoringImages\StoringImages\obj\Debug\StoringImages.csproj.CoreCompileInputs.cache
