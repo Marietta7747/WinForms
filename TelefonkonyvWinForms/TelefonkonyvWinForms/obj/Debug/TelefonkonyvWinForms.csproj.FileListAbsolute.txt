@@ -1,0 +1,15 @@
+C:\Users\user\Downloads\TelefonkonyvWinForms\TelefonkonyvWinForms\bin\Debug\TelefonkonyvWinForms.exe.config
+C:\Users\user\Downloads\TelefonkonyvWinForms\TelefonkonyvWinForms\bin\Debug\TelefonkonyvWinForms.exe
+C:\Users\user\Downloads\TelefonkonyvWinForms\TelefonkonyvWinForms\bin\Debug\TelefonkonyvWinForms.pdb
+C:\Users\user\Downloads\TelefonkonyvWinForms\TelefonkonyvWinForms\obj\Debug\TelefonkonyvWinForms.csproj.AssemblyReference.cache
+C:\Users\user\Downloads\TelefonkonyvWinForms\TelefonkonyvWinForms\obj\Debug\TelefonkonyvWinForms.Properties.Resources.resources
+C:\Users\user\Downloads\TelefonkonyvWinForms\TelefonkonyvWinForms\obj\Debug\TelefonkonyvWinForms.csproj.GenerateResource.cache
+C:\Users\user\Downloads\TelefonkonyvWinForms\TelefonkonyvWinForms\obj\Debug\TelefonkonyvWinForms.csproj.CoreCompileInputs.cache
+C:\Users\user\Downloads\TelefonkonyvWinForms\TelefonkonyvWinForms\obj\Debug\TelefonkonyvWinForms.exe
+C:\Users\user\Downloads\TelefonkonyvWinForms\TelefonkonyvWinForms\obj\Debug\TelefonkonyvWinForms.pdb
+C:\Users\user\Downloads\TelefonkonyvWinForms\TelefonkonyvWinForms\obj\Debug\TelefonkonyvWinForms.AddNewForm.resources
+C:\Users\user\Downloads\TelefonkonyvWinForms\TelefonkonyvWinForms\obj\Debug\TelefonkonyvWinForms.DeleteForm.resources
+C:\Users\user\Downloads\TelefonkonyvWinForms\TelefonkonyvWinForms\obj\Debug\TelefonkonyvWinForms.DisplayForm.resources
+C:\Users\user\Downloads\TelefonkonyvWinForms\TelefonkonyvWinForms\obj\Debug\TelefonkonyvWinForms.MenuForm.resources
+C:\Users\user\Downloads\TelefonkonyvWinForms\TelefonkonyvWinForms\obj\Debug\TelefonkonyvWinForms.ModifyForm.resources
+C:\Users\user\Downloads\TelefonkonyvWinForms\TelefonkonyvWinForms\obj\Debug\TelefonkonyvWinForms.SearchForm.resources
